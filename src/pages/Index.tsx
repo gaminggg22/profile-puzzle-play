@@ -1,10 +1,9 @@
-
 import React, { useEffect } from 'react';
 import { useNavigate, Link } from 'react-router-dom';
 import { Button } from '@/components/ui/button';
 import { useAuth } from '@/context/AuthContext';
 import { onOnlineUsersUpdate } from '@/lib/firebase';
-import { LogIn, UserPlus, Users } from 'lucide-react';
+import { LogIn, UserPlus, Users, Trophy } from 'lucide-react';
 
 const Index = () => {
   const { isAuthenticated, isLoading } = useAuth();
